@@ -7,10 +7,10 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: windows-2019
 
 variables:
-  imageName: 'pipelines-javascript-docker'
+  imageName: 'hello-docker'
 
 steps:
 - task: Docker@2
